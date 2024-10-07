@@ -4,7 +4,7 @@ import menu from '../assets/menu.svg'
 export const Navbar=()=>{
     return (
         <>
-        <div className='flex px-20 py-10 fixed w-full justify-between z-10 '>
+        <div className='flex px-20 py-10 fixed w-full justify-between z-40 '>
             {/* logo */}
             <img className="h-24 w-20" src={logo} alt="logo" />
             {/* menu button */}
